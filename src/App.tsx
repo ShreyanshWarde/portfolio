@@ -231,6 +231,10 @@ export default function App() {
                 <span className="edu-degree">HSC Science · 85.17%</span>
                 <span className="edu-school">Cambridge Junior College, Latur · 2022</span>
               </div>
+              <div className="edu-item">
+                <span className="edu-degree">SSC Science · 91.20%</span>
+                <span className="edu-school">Shri Gujarati English School, Latur · 2020</span>
+              </div>
             </div>
             <div className="edu-block">
               <p className="edu-label">Certifications</p>
