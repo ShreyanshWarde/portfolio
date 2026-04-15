@@ -32,16 +32,16 @@ const PROJECTS = [
     description:
       'A modular RAG API that ingests documents (PDF, TXT, etc.), chunks them, embeds with sentence-transformers, stores in FAISS, and answers questions with grounded responses. Includes anti-hallucination fallback, rate limiting, and interactive API docs.',
     highlight: 'Upload & Query endpoint, Anti-hallucination, Rate limiting, Modular architecture, Interactive docs: Swagger UI  ',
-    github: 'https://github.com/ShreyanshWarde',
+    github: 'https://github.com/ShreyanshWarde/RAG_based_Q_A',
   },
 ]
 
 const SKILLS = [
   { category: 'Languages', items: ['Python (Advanced)', 'TypeScript', 'Java', 'SQL', 'Async/Await'] },
-  { category: 'AI / ML', items: ['LLM Orchestration', 'Multi-Agent Systems', 'YOLOv11', 'Scikit-learn', 'Pandas', 'NumPy'] },
+  { category: 'AI / ML', items: ['LLM Orchestration', 'RAG', 'Multi-Agent Systems', 'YOLOv11', 'Scikit-learn', 'Pandas', 'NumPy'] },
   { category: 'Backend', items: ['FastAPI', 'PydanticAI', 'OpenAI SDK', 'OAuth2', 'JWT', 'RESTful APIs'] },
   { category: 'Frontend', items: ['React', 'TypeScript', 'HTML/CSS', 'REST API Integration'] },
-  { category: 'Databases', items: ['MySQL', 'SQL Modeling', 'NoSQL (familiar)', 'ChromaDB'] },
+  { category: 'Databases', items: ['MySQL', 'SQL Modeling', 'NoSQL (familiar)', 'FAISS'] },
   { category: 'Tools', items: ['Git/GitHub', 'Logfire', 'OpenTelemetry', 'Tableau', 'AWS (learning)'] },
 ]
 
