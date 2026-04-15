@@ -42,7 +42,7 @@ const SKILLS = [
   { category: 'Backend', items: ['FastAPI', 'PydanticAI', 'OpenAI SDK', 'OAuth2', 'JWT', 'RESTful APIs'] },
   { category: 'Frontend', items: ['React', 'TypeScript', 'HTML/CSS', 'REST API Integration'] },
   { category: 'Databases', items: ['MySQL', 'SQL Modeling', 'NoSQL (familiar)', 'FAISS'] },
-  { category: 'Tools', items: ['Git/GitHub', 'Logfire', 'OpenTelemetry', 'Tableau', 'AWS (learning)'] },
+  { category: 'Tools | Platforms', items: ['Git/GitHub', 'Logfire', 'OpenTelemetry', 'Tableau', 'AWS (learning)'] },
 ]
 
 const SOCIAL = [
