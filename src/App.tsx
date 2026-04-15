@@ -26,6 +26,14 @@ const PROJECTS = [
     highlight: 'Modular architecture: detection, recognition, and attendance layers fully decoupled',
     github: 'https://github.com/ShreyanshWarde',
   },
+  {
+    title: 'RAG-Based Question Answering System',
+    stack: 'Python ·FastAPI · FAISS  · Sentence Transformers  · OpenAI SDK',
+    description:
+      'A modular RAG API that ingests documents (PDF, TXT, etc.), chunks them, embeds with sentence-transformers, stores in FAISS, and answers questions with grounded responses. Includes anti-hallucination fallback, rate limiting, and interactive API docs.',
+    highlight: 'Upload & Query endpoint, Anti-hallucination, Rate limiting, Modular architecture, Interactive docs: Swagger UI  ',
+    github: 'https://github.com/ShreyanshWarde',
+  },
 ]
 
 const SKILLS = [
