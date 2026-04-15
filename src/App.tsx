@@ -81,6 +81,14 @@ export default function App() {
   }, [])
 
   const closeMenu = () => setMenuOpen(false)
+  
+  const subject = encodeURIComponent("Hiring Inquiry");
+  const body = encodeURIComponent(
+    "Hi Shreyansh,\n\nI came across your portfolio and would like to work with you.\n\nThanks,"
+  );
+
+  const gmailLink = `https://mail.google.com/mail/?view=cm&fs=1&to=shreyanshwarde2011@gmail.com&su=${subject}&body=${body}`;
+
 
   return (
     <>
@@ -92,17 +100,19 @@ export default function App() {
           <a href="#skills" className="nav-link" onClick={closeMenu}>Skills</a>
           <a href="#about" className="nav-link" onClick={closeMenu}>About</a>
           <a
-            href="mailto:shreyanshwarde2011@gmail.com"
-            className="nav-cta"
-            onClick={closeMenu}
+             href={gmailLink}
+             className="nav-cta"
+             onClick={closeMenu}
+             target="_blank"
+             rel="noopener noreferrer"
           >
             Hire Me
           </a>
         </div>
         <button
-          className={`hamburger${menuOpen ? ' hamburger--open' : ''}`}
-          onClick={() => setMenuOpen(!menuOpen)}
-          aria-label="Toggle menu"
+         className={`hamburger${menuOpen ? " hamburger--open" : ""}`}
+         onClick={() => setMenuOpen(!menuOpen)}
+         aria-label="Toggle menu"
         >
           <span /><span /><span />
         </button>
